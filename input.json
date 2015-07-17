@@ -1,0 +1,354 @@
+{
+  "href": "ALB",
+  "template": "left-right-bottom",
+  "holders": {
+    "column": {
+      "widgets": [
+        {
+          "title": "Albania",
+          "type": "title",
+          "instanceName": "title"
+        },
+        {
+          "text": "<p><font size=\"5\">SDI 2014</font></p>",
+          "type": "htmlwidget",
+          "instanceName": "vimb39v2vtwklnmi"
+        },
+        {
+          "type": "datasource",
+          "instanceName": "t0dpy1mcfa90be29",
+          "url": "./api/data/process/55a64b97c1c66a030075c7d5",
+          "dataID": "55a64b5ec1c66a030075c7d4"
+        },
+        {
+          "type": "datasource",
+          "instanceName": "kgtpj7oxv7mygb9",
+          "url": "./api/data/process/55a64896c1c66a030075c7d3",
+          "dataID": "55a64889c1c66a030075c7d2"
+        }
+      ],
+      "width": 1133
+    },
+    "topleft": {
+      "widgets": [
+        {
+          "text": "<p></p><p></p><p></p><table width=\"547\" height=\"200\" style=\"width: 547px; height: 196px;\"><tbody><tr><td style=\"text-align: left;\"><font color=\"#333333\" size=\"4\">Population</font></td><td style=\"text-align: left;\"><font color=\"#333333\" size=\"4\">//TODO POPM M</font></td></tr><tr><td style=\"text-align: left;\"><font color=\"#333333\" size=\"4\">GDP per capita</font></td><td style=\"text-align: left;\"><font color=\"#333333\" size=\"4\">$ //TODO GDPDOL</font></td></tr><tr><td style=\"text-align: left;\"><font color=\"#333333\" size=\"4\">Isd</font></td><td style=\"text-align: left;\"><font color=\"#333333\" size=\"4\">//TODO SDI</font></td></tr><tr><td style=\"text-align: left;\"><font color=\"#333333\" size=\"4\">Isd rank</font></td><td style=\"text-align: left;\"><font color=\"#333333\" size=\"4\">//TODO SDIRANK</font></td></tr><tr><td style=\"text-align: left;\"><font color=\"#333333\" size=\"4\">Conflicts Intencity</font></td><td style=\"text-align: left;\"><font size=\"4\">//TODO CONFLICT</font></td></tr></tbody></table><p>Download: .pdf .xls</p>",
+          "type": "htmlwidget",
+          "instanceName": "info"
+        },
+        {
+          "text": "<p><br><span style=\"font-size: x-large;\">Quality of Life &nbsp; &nbsp; //TODO Quality</span><br></p><table style=\"width: 548px; height: 200px; text-align: left;\"><tbody><tr><td><font size=\"4\">Iec</font><td><font size=\"4\">Economic</font></td><td><font size=\"4\">//TODO Economic</font></td></tr><tr><td><font size=\"4\">Ie</font></td><td><font size=\"4\">Environment</font></td><td><font size=\"4\">//TODO Enviroment</font></td></tr><tr><td><font size=\"4\">Is</font></td><td><font size=\"4\">Social</font></td><td><font size=\"4\">//TODO Social</font></td></tr><tr><td><font size=\"4\">G</font></td><td><font size=\"4\">Harmonization degree</font></td><td><font size=\"4\">//TODO Harmonization<br></font></td></tr></tbody></table><div><font size=\"4\"><br></font></div><div><font size=\"4\"><br></font></div>",
+          "type": "htmlwidget",
+          "instanceName": "quality_of_life_html"
+        },
+        {
+          "text": "<p><font size=\"4\"></font></p><p><font size=\"4\"></font></p><font size=\"5\">Security of Life &nbsp; &nbsp;//TODO Security</font><p><font size=\"4\"></font></p><div><table style=\"width: 549px; height: 520px;\"><tbody><tr><td><font size=\"4\" face=\"Arial\">ES</font></td><td><font size=\"4\" face=\"Arial\">Energy Security</font></td><td><font size=\"4\" face=\"Arial\">//TODO Energy</font></td><td><font size=\"4\" face=\"Arial\">coef</font></td></tr><tr><td><font size=\"4\" face=\"Arial\">BB</font></td><td><font size=\"4\" face=\"Arial\">Biodiversity Balance</font></td><td><font size=\"4\" face=\"Arial\">//TODO Biodiversity</font></td><td><span lang=\"EN-US\" style=\"line-height: 115%;\"><font size=\"4\" face=\"Arial\">gha/person</font></span></td></tr><tr><td><font size=\"4\" face=\"Arial\">GINI</font></td><td><font size=\"4\" face=\"Arial\">coef<br></font></td><td><font size=\"4\" face=\"Arial\">//TODO GINI</font></td><td><font size=\"4\">coef</font></td></tr><tr><td><font size=\"4\" face=\"Arial\">CP</font></td><td><font size=\"4\" face=\"Arial\">Corruption Perception</font></td><td><font size=\"4\" face=\"Arial\">//TODO Corruption</font></td><td><font size=\"4\">coef</font></td></tr><tr><td><font size=\"4\" face=\"Arial\">WA</font></td><td><font size=\"4\" face=\"Arial\">Water Access</font></td><td><font size=\"4\" face=\"Arial\">//TODO Water</font></td><td><font size=\"4\" face=\"Arial\">%</font></td></tr><tr><td><font size=\"4\" face=\"Arial\">GW</font></td><td><font size=\"4\" face=\"Arial\">CO<sub>2</sub> emissions&nbsp;<br></font></td><td><font size=\"4\" face=\"Arial\">//TODO CO2</font></td><td><font size=\"4\" face=\"Arial\">metric tonnes</font></td></tr><tr><td><font size=\"4\" face=\"Arial\">CM</font></td><td><font size=\"4\" face=\"Arial\">Mortality rate, under-5&nbsp;<br></font></td><td><font size=\"4\" face=\"Arial\">//TODO Child</font></td><td><font size=\"4\" face=\"Arial\">number per 1,000 live births</font></td></tr><tr><td><font size=\"4\" face=\"Arial\">GD</font></td><td><font size=\"4\" face=\"Arial\">Global Diseases</font></td><td><font size=\"4\" face=\"Arial\">//TODO Diseases</font></td><td><font size=\"4\" face=\"Arial\">coef</font></td></tr><tr><td><font size=\"4\" face=\"Arial\">SF</font></td><td><font size=\"4\" face=\"Arial\">State Fragility</font></td><td><font size=\"4\" face=\"Arial\">//TODO State</font></td><td><font size=\"4\" face=\"Arial\">coef</font></td></tr><tr><td><font size=\"4\" face=\"Arial\">ND</font></td><td><font size=\"4\" face=\"Arial\">Natural Disasters</font></td><td><font size=\"4\" face=\"Arial\">//TODO Natural</font></td><td><font size=\"4\">coef</font></td></tr><tr><td><font size=\"4\" face=\"Arial\">CI</font></td><td><font size=\"4\" face=\"Arial\">Conflicts Intencity<br></font></td><td><font size=\"4\" face=\"Arial\">//TODO CONFLICT</font></td><td><font size=\"4\" face=\"Arial\">coef</font></td></tr><tr><td><font size=\"4\" face=\"Arial\">PI</font></td><td><font size=\"4\" face=\"Arial\">Proliferation Index<br></font></td><td><font size=\"4\" face=\"Arial\">//TODO Proliferation</font></td><td><font size=\"4\">coef</font></td></tr></tbody></table></div>",
+          "type": "htmlwidget",
+          "instanceName": "security_of_life_html"
+        }
+      ],
+      "width": 562
+    },
+    "topright": {
+      "widgets": [
+        {
+          "type": "nvd3-map",
+          "instanceName": "SDI_map",
+          "decoration": {
+            "height": 220,
+            "color": [
+              "#31a354",
+              "#addd8e",
+              "#f7fcb9"
+            ],
+            "showLabels": false,
+            "showValues": false,
+            "showTiles": true,
+            "selectedTiles": "mapbox.outdoors",
+            "interactive": true,
+            "defaultFill": "#f0f0f0",
+            "defaultFillOpacity": 0,
+            "defaultStroke": "#909095",
+            "defaultStrokeWidth": 1,
+            "defaultStrokeOpacity": 0.75,
+            "selectedFillOpacity": 0.5,
+            "selectedStrokeWidth": 3
+          },
+          "datasource": "kgtpj7oxv7mygb9",
+          "data": {
+            "url": "./api/data/process/55a64896c1c66a030075c7d3",
+            "selectedDataset": "SDI_all_2013",
+            "selection": [
+              {
+                "collection": [
+                  {
+                    "id": "ALB",
+                    "index": "1",
+                    "label": "Albania"
+                  }
+                ],
+                "role": "Columns"
+              },
+              {
+                "collection": [
+                  {
+                    "id": "Isd",
+                    "index": "16",
+                    "label": "Isd"
+                  }
+                ],
+                "role": "Rows"
+              },
+              {
+                "collection": [
+                  {
+                    "id": "2013",
+                    "index": "0",
+                    "label": 2013
+                  }
+                ],
+                "role": "Fix Value"
+              }
+            ],
+            "standalone": false
+          }
+        },
+        {
+          "type": "nvd3-radar",
+          "instanceName": "Quality_of_life_triangle",
+          "decoration": {
+            "height": 280,
+            "title": "Quality of life components",
+            "subtitle": "2013 year",
+            "caption": "",
+            "isArea": true,
+            "showLabels": true,
+            "ticks": 5,
+            "tickLabel": false,
+            "grid": true,
+            "axisLabel": true
+          },
+          "datasource": "kgtpj7oxv7mygb9",
+          "data": {
+            "url": "./api/data/process/55a64896c1c66a030075c7d3",
+            "selectedDataset": "SDI_all_2013",
+            "selection": [
+              {
+                "collection": [
+                  {
+                    "id": "ALB",
+                    "index": "1",
+                    "label": "Albania"
+                  }
+                ],
+                "role": "Rows"
+              },
+              {
+                "collection": [
+                  {
+                    "id": "Ie",
+                    "index": "13",
+                    "label": "Ie"
+                  },
+                  {
+                    "id": "Iec",
+                    "index": "14",
+                    "label": "Iec"
+                  },
+                  {
+                    "id": "Is",
+                    "index": "15",
+                    "label": "Is"
+                  }
+                ],
+                "role": "Columns"
+              },
+              {
+                "collection": [
+                  {
+                    "id": "2013",
+                    "index": "0",
+                    "label": 2013
+                  }
+                ],
+                "role": "Fix Value"
+              }
+            ],
+            "standalone": false
+          }
+        },
+        {
+          "type": "nvd3-radar",
+          "instanceName": "security_of_life_triangle",
+          "decoration": {
+            "height": 450,
+            "title": "Global threats for Albania",
+            "subtitle": "2013 year",
+            "caption": "",
+            "isArea": true,
+            "showLabels": true,
+            "ticks": 5,
+            "tickLabel": false,
+            "grid": true,
+            "axisLabel": true
+          },
+          "datasource": "t0dpy1mcfa90be29",
+          "data": {
+            "url": "./api/data/process/55a64b97c1c66a030075c7d5",
+            "selectedDataset": "Threats_all_2013_norm",
+            "selection": [
+              {
+                "collection": [
+                  //TODO GROUPS
+                  {
+                    "id": "ALB",
+                    "index": "1",
+                    "label": "Albania"
+                  }
+                ],
+                "role": "Rows"
+              },
+              {
+                "collection": [
+                  {
+                    "id": "BB_NORM",
+                    "index": "0",
+                    "label": "BB_NORM"
+                  },
+                  {
+                    "id": "CI_NORM",
+                    "index": "1",
+                    "label": "CI_NORM"
+                  },
+                  {
+                    "id": "CM_NORM",
+                    "index": "2",
+                    "label": "CM_NORM"
+                  },
+                  {
+                    "id": "CP_NORM",
+                    "index": "3",
+                    "label": "CP_NORM"
+                  },
+                  {
+                    "id": "ES_NORM",
+                    "index": "4",
+                    "label": "ES_NORM"
+                  },
+                  {
+                    "id": "GD_NORM",
+                    "index": "5",
+                    "label": "GD_NORM"
+                  },
+                  {
+                    "id": "GINI_NORM",
+                    "index": "6",
+                    "label": "GINI_NORM"
+                  },
+                  {
+                    "id": "GW_NORM",
+                    "index": "7",
+                    "label": "GW_NORM"
+                  },
+                  {
+                    "id": "ND_NORM",
+                    "index": "8",
+                    "label": "ND_NORM"
+                  },
+                  {
+                    "id": "PI_NORM",
+                    "index": "9",
+                    "label": "PI_NORM"
+                  },
+                  {
+                    "id": "SF_NORM",
+                    "index": "10",
+                    "label": "SF_NORM"
+                  },
+                  {
+                    "id": "WA_NORM",
+                    "index": "11",
+                    "label": "WA_NORM"
+                  }
+                ],
+                "role": "Columns"
+              },
+              {
+                "collection": [
+                  {
+                    "id": "2013",
+                    "index": "0",
+                    "label": 2013
+                  }
+                ],
+                "role": "Fix Value"
+              }
+            ],
+            "standalone": false
+          }
+        }
+      ],
+      "width": 562
+    },
+    "bottom": {
+      "widgets": [
+        {
+          "text": "//TODO Link",
+          "type": "htmlwidget",
+          "instanceName": "peer_group_html"
+        }
+      ],
+      "width": 1133
+    }
+  },
+  "subscriptions": [
+    {
+      "emitter": "pyofcnns92t3ayvi",
+      "receiver": "SDI_map",
+      "signal": "loadDataSuccess",
+      "slot": "setDataProvider"
+    },
+    {
+      "emitter": "pyofcnns92t3ayvi",
+      "receiver": "QOL",
+      "signal": "loadDataSuccess",
+      "slot": "setDataProvider"
+    },
+    {
+      "emitter": "e70dub9ityq77gb9",
+      "receiver": "SDI_map",
+      "signal": "loadDataSuccess",
+      "slot": "setDataProvider"
+    },
+    {
+      "emitter": "e70dub9ityq77gb9",
+      "receiver": "Quality_of_life_triangle",
+      "signal": "loadDataSuccess",
+      "slot": "setDataProvider"
+    },
+    {
+      "emitter": "3m0su9p0myvz33di",
+      "receiver": "security_of_life_triangle",
+      "signal": "loadDataSuccess",
+      "slot": "setDataProvider"
+    },
+    {
+      "emitter": "kgtpj7oxv7mygb9",
+      "receiver": "SDI_map",
+      "signal": "loadDataSuccess",
+      "slot": "setDataProvider"
+    },
+    {
+      "emitter": "kgtpj7oxv7mygb9",
+      "receiver": "Quality_of_life_triangle",
+      "signal": "loadDataSuccess",
+      "slot": "setDataProvider"
+    },
+    {
+      "emitter": "t0dpy1mcfa90be29",
+      "receiver": "security_of_life_triangle",
+      "signal": "loadDataSuccess",
+      "slot": "setDataProvider"
+    }
+  ]
+}
