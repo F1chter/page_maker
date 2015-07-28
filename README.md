@@ -4,12 +4,16 @@ Create country pages for World Data Centre
 
 Instruction
 1.  Create page for Albania
+
 2.  Export project to empty.json
+
 3.  Cut page Albania (instead paste tag //TODO ALBANIA ) from JSON and paste to input.json
+
 4.  In input.json put a tags on which place you need to change to data
 
 
 A piece of code where tags change to data
+
 ret=ret.replaceAll("Albania",name);
         ret=ret.replaceAll("ALB",code);
         ret=ret.replaceAll("//TODO GROUPS",groupJSON());
